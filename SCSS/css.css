@@ -1,0 +1,109 @@
+/* @import "./res.css";         */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    background: #67dd6777;
+    /* центруем */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: blue;
+    border: 2px solid black;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+    font-style: 18px;
+    font-weight: 700;
+    outline: none;
+    box-shadow: 5px 10px 15px blue;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: translateY(10px);
+}
+
+/* форма */
+.container {
+    padding: 20px;
+}
+
+input[type=e-mail],
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    background-color: rgba(255, 217, 0, 0.438);
+}
+
+input[type=e-mail]:focus,
+input[type=password]:focus {
+    outline: none;
+    background-color: white;
+}
+
+hr {
+    height: 2px;
+    background-color: blue;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+    color: blue;
+}
+
+label {
+    color: red;
+    font-size: 20px;
+}
+/* button ++++[type-button]{ */
+    /* background-color: blueviolet;
+} */
+.canselBtn, .signBtn{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.canselBtn:active,
+.signBtn:active{
+    transform: translateY(10px);
+}
+/* .content */
+#sign-up{
+    background-color: rgba(240, 248, 255, 0.397);
+    /* margin: 2% auto 2% auto; */
+    margin: 3% auto;
+    width: 50%;
+    display: none;  
+}
+.close{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+    top: 50px;
+    right: 100px;
+    cursor: pointer;
+    /* transition: transform .3s; */
+}
+.close:active{
+    color: red;
+    font-weight: 900;
+    transform: scale(1.2);
+}

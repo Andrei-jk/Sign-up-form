@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./SCSS/css.css">
+    <title>Sign up form</title>
+</head>
+
+<body>
+    <button class="btn" id="btn">Sign Up</button>
+    <!-- создадим форму -->
+    <div class="sign-up" id="sign-up">
+        <!-- закрывающийся крестик -->
+        <span class="close" id="cl">&times;</span>
+        <!-- форма -->
+        <form action="#" class="content">
+            <div class="container">
+                <h1>Sign-Up</h1>
+                <p>Pleace, fill in this form!</p>
+                <hr>
+
+                <label for="e-mail">E-mail</label>
+                <input class="field" type="e-mail" id="mail" name="e-mail" placeholder="Enter e-mail" required
+                    autocomplete="off">
+                <label for="pass">Password</label>
+
+                <input class="field" type="password" id="pass" name="pass" placeholder="Create a password" required>
+
+                <label for="pass-repeat">Repeat password</label>
+                <input class="field" type="password" id="pass-repeat" name="pass-repeat" placeholder="Repeat a password"
+                    required>
+
+                <label for="#">
+                    <input type="checkbox" name="remember" id="remember" checked> remember me
+                </label>
+
+                <p>I agree <a href="#">Policy</a></p>
+                <div class="buttons">
+                    <button type="button" class="canselBtn" id="cansel">Cansel</button>
+                    <button type="button" class="signBtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./JS/js.js"></script>
+</body>
+
+</html>
