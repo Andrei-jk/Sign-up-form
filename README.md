@@ -3,4 +3,4 @@ Sing Up Form
 * CSS3
 + JS
   
-+ Can you view [the JS code is described in detail and correctly](https://andrei-jk.github.io/Sign-up-form/).
+Can you view [the JS code is described in detail and correctly](https://andrei-jk.github.io/Sign-up-form/).
